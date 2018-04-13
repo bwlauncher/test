@@ -1,7 +1,4 @@
 FROM alpine
-#RUN set -x ; \
-#  addgroup -g 82 -S nginx ; \
-#  adduser -u 82 -D -S -G nginx nginx && exit 0 ; exit 1
 
 RUN apk update && \
     apk add nginx && \
